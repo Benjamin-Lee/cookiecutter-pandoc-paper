@@ -4,10 +4,16 @@ author:
 {%- for author in cookiecutter.author_full_names_separated_by_commas.split(",") %}
   - {{ author.lstrip() }}
 {%- endfor %}
-{%- if cookiecutter.double_spacing != "n" %}
+{%- if cookiecutter.double_spacing != "n" or cookiecutter.double_spacing != "n" %}
 header-includes:
+{%- endif %}
+{%- if cookiecutter.double_spacing != "n" %}
   - \usepackage{setspace}
   - \doublespacing
+{%- endif %}
+{%- if cookiecutter.line_numbers != "n"%}
+  - \usepackage[left]{lineno}
+  - \linenumbers
 {%- endif %}
 {%- if cookiecutter.margin_inches != "default" %}
 geometry: margin={{cookiecutter.margin_inches}}in

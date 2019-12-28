@@ -4,6 +4,7 @@
   "directory_name": "paper",
   "two_columns": "n",
   "double_spacing": "n",
+  "line_numbers": "n",
   "font_size": "default",
   "margin_inches": "default",
   "bibliography_style": [
