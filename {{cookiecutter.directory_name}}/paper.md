@@ -1,12 +1,13 @@
 ---
 title: {{ cookiecutter.title }}
 author: 
-    - {{ cookiecutter.first_author_full_name }}
-    - Second author
+{%- for author in cookiecutter.author_full_names_separated_by_commas.split(",") %}
+  - {{ author.lstrip() }}
+{%- endfor %}
 {%- if cookiecutter.double_spacing != "n" %}
 header-includes:
-    - \usepackage{setspace}
-    - \doublespacing
+  - \usepackage{setspace}
+  - \doublespacing
 {%- endif %}
 {%- if cookiecutter.margin_inches != "default" %}
 geometry: margin={{cookiecutter.margin_inches}}in

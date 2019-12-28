@@ -1,5 +1,5 @@
 {
-  "first_author_full_name": "Benjamin D. Lee",
+  "author_full_names_separated_by_commas": "Benjamin D. Lee",
   "title": "My great paper",
   "directory_name": "paper",
   "two_columns": "n",
