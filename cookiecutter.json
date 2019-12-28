@@ -1,0 +1,23 @@
+{
+  "first_author_full_name": "Benjamin D. Lee",
+  "title": "My great paper",
+  "directory_name": "paper",
+  "two_columns": "n",
+  "double_spacing": "n",
+  "font_size": "default",
+  "margin_inches": "default",
+  "bibliography_style": [
+    "Default LaTeX",
+    "APA 6th Edition",
+    "MLA 8th Edition",
+    "Chicago Manual of Style 17th Edition (Author-Date)",
+    "IEEE",
+    "Nature",
+    "AMA",
+    "ACS",
+    "Other"
+  ],
+  "abstract": "y",
+  "include_standard_paper_headings": "y",
+  "include_lorem_ipsum": "y"
+}
