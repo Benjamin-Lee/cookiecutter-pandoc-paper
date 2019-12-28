@@ -12,7 +12,7 @@ For more information, take a look at Pandoc's [installation instructions](https:
 
 ## Usage
 
-Within the {{ cookiecutter.directory }} directory, run:
+Within the {{ cookiecutter.directory_name }} directory, run:
 
 ```shell
 # to generate a PDF
