@@ -42,3 +42,15 @@ npm run lint
 npm run
 {%- endif %}
 ```
+{% if cookiecutter.use_linter == "y"-%}
+Next, install the dependencies for linting:
+
+```
+npm i
+```
+
+Note that you should include your references *within* the periods to ensure that the linter (which keeps sentences on different lines for more informative diffs) doesn't break them up:
+```
+Like this [@Lee2019]. Not this. [@Lee2019]
+```
+{%- endif %}
