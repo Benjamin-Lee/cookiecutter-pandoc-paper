@@ -21,5 +21,5 @@
   "abstract": "y",
   "include_standard_paper_headings": "y",
   "include_lorem_ipsum": "n",
-  "use_linter": "n"
+  "use_linter": "y"
 }
