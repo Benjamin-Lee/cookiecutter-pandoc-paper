@@ -8,6 +8,7 @@
     "write-good": {
       "passive": false,
       "thereIs": false
-    }
+    },
+    "one-sentence-per-line": true
   }
 }
