@@ -4,11 +4,12 @@ A [Cookiecutter](https://github.com/cookiecutter/cookiecutter) for writing paper
 
 ## Features
 
-- Easily supports multiple authors
-- Use one or two column layout
-- Optional double spacing and line numbering
+- Use either one or two column layout
+- Support for double spacing and line numbering
 - Customizable font size and margins
 - APA, AMA, MLA, CMS, IEEE, Nature, and ACS citation styles out of the box
+- Grammar checking (and fixing!) via [Textlint](https://textlint.github.io)
+- Preconfigured scripts for PDF and Word file generation (via `npm run pdf` and `npm run docx`)
 
 ## Usage
 

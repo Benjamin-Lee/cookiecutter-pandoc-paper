@@ -1,0 +1,13 @@
+{
+  "rules": {
+    "en-capitalization": true,
+    "no-start-duplicated-conjunction": {
+      "interval": 2
+    },
+    "@textlint-rule/no-unmatched-pair": true,
+    "write-good": {
+      "passive": false,
+      "thereIs": false
+    }
+  }
+}

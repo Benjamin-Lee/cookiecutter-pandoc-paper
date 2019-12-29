@@ -29,6 +29,7 @@ bibliography: bibliography.bib
 csl: style.csl
 {%- endif %}
 {%- if cookiecutter.abstract == "y" %}
+{%- if cookiecutter.include_lorem_ipsum != "n" %}
 abstract: |
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
   Mattis pellentesque id nibh tortor id aliquet lectus proin nibh. 
@@ -41,6 +42,9 @@ abstract: |
   Erat velit scelerisque in dictum non consectetur a erat nam. 
   Mi eget mauris pharetra et ultrices neque ornare. 
   In ante metus dictum at.
+{%- else %}
+abstract: ""
+{%- endif -%}
 {%- endif %}
 ---
 
