@@ -1,0 +1,5 @@
+paper.pdf
+paper.docx
+{%- if cookiecutter.use_linter == "y" %}
+node_modules
+{%- endif %}
