@@ -7,7 +7,7 @@ To render the paper, you will need:
 1. pandoc
 2. pandoc-citeproc
 3. LaTeX
-4. Node.js (to use shortcuts via `npm run`)
+4. Node.js (optional, for linting and using shortcuts via `npm run`)
 
 For more information, take a look at Pandoc's [installation instructions](https://pandoc.org/installing.html).
 
@@ -15,13 +15,13 @@ For more information, take a look at Pandoc's [installation instructions](https:
 Next, install the dependencies for linting:
 
 ```
-npm i
+npm install
 ```
 {%- endif %}
 
 ## Usage
 
-Within the {{ cookiecutter.directory_name }} directory, run:
+Within this directory, run:
 
 ```shell
 # to generate a PDF
@@ -39,15 +39,10 @@ npm run docx
 npm run lint
 
 # to automatically fix these mistakes and prettify the file
-npm run
+npm run fix
 {%- endif %}
 ```
 {% if cookiecutter.use_linter == "y"-%}
-Next, install the dependencies for linting:
-
-```
-npm i
-```
 
 Note that you should include your references *within* the periods to ensure that the linter (which keeps sentences on different lines for more informative diffs) doesn't break them up:
 ```
