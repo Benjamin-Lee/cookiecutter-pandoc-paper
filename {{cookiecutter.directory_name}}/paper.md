@@ -1,5 +1,5 @@
 ---
-title: {{ cookiecutter.title }}
+title: "{{ cookiecutter.title }}"
 author: 
 {%- for author in cookiecutter.author_full_names_separated_by_commas.split(",") %}
   - {{ author.lstrip() }}
