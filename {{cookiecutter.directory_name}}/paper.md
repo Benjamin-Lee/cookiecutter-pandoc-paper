@@ -48,7 +48,7 @@ abstract: ""
 {%- endif %}
 ---
 
-{%- if cookiecutter.include_standard_paper_headings %}
+{%- if cookiecutter.include_standard_paper_headings != "n" %}
 
 # Introduction
 
