@@ -5,8 +5,8 @@
     "lint": "textlint paper.md || true",
     "fix": "textlint --fix paper.md && prettier --write paper.md",
   {%- endif %}
-    "pdf": "pandoc paper.md -o paper.pdf",
-    "docx": "pandoc paper.md -o paper.docx" 
+    "pdf": "pandoc paper.md -o paper.pdf --citeproc",
+    "docx": "pandoc paper.md -o paper.docx --citeproc" 
   },
   "author": "{{cookiecutter.author_full_names_separated_by_commas}}"
   {%- if cookiecutter.use_linter == "y" -%}
